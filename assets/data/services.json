@@ -1,0 +1,114 @@
+[
+    {
+    "image":"assets/services/demolition.jpg",
+    "name":"Demolition",
+    "category":"Construction"
+
+},
+    {
+    "image":"assets/services/brickchick.jpg",
+    "name":"Bricklaying",
+    "category":"Construction"
+
+},
+    {
+    "image":"assets/services/pool-making.jpg",
+    "name":"Pool & Pond Works",
+    "category":"Construction"
+
+},
+    {
+    "image":"assets/services/tiles.jpg",
+    "name":"Tiling",
+    "category":"Construction"
+
+},
+    {
+    "image":"assets/services/plumbing.jpg",
+    "name":"Plumbing",
+    "category":"Construction"
+
+},
+    {
+    "image":"assets/services/carpenter.jpg",
+    "name":"Carpentry",
+    "category":"Construction"
+},
+    {
+    "image":"assets/services/electrician.jpg",
+    "name":"Electricity",
+    "category":"Construction"
+},
+    {
+    "image":"assets/services/fridge.jpg",
+    "name":"Refrigiration",
+    "category":"Construction"
+},
+    {
+    "image":"assets/services/roofer.jpg",
+    "name":"Roofing & Decking",
+    "category":"Construction"
+},
+    {
+    "image":"assets/services/plaster.jpg",
+    "name":"Plastering",
+    "category":"Construction"
+},
+    {
+    "image":"assets/services/locker.jpg",
+    "name":"Locksmith",
+    "category":"Construction"
+},
+
+    {
+    "image":"assets/services/painter.jpg",
+    "name":"Painting",
+    "category":"Decoration"
+},
+    {
+    "image":"assets/services/knit.jpg",
+    "name":"Tapestry",
+    "category":"Decoration"
+},
+    {
+    "image":"assets/services/decor.jpg",
+    "name":"Decoration",
+    "category":"Decoration"
+},
+    {
+    "image":"assets/services/cleaner.jpg",
+    "name":"House Keeping",
+    "category":"Maintenace"
+},
+    {
+    "image":"assets/services/garden.jpg",
+    "name":"Gardening & Landscaping",
+    "category":"Decoration"
+},
+    {
+    "image":"assets/services/food.jpg",
+    "name":"Cooking & Baking",
+    "category":"Food"
+},
+    {
+    "image":"assets/services/drinks.jpg",
+    "name":"Drinks & Cocktails",
+    "category":"Beverages"
+},
+    {
+    "image":"assets/services/plan.jpg",
+    "name":"Event Planning",
+    "category":"Event management"
+},
+    {
+    "image":"assets/services/mc.jpg",
+    "name":"MCing & DJ",
+    "category":"Event management"
+},
+    {
+    "image":"assets/services/film.jpg",
+    "name":"Event coverage",
+    "category":"Event management"
+}
+
+]

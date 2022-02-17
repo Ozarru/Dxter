@@ -1,0 +1,63 @@
+[
+    {
+        "id":1,
+        "name":"Construction"
+    
+    },
+    {
+        "id":2,
+        "name":"Maintenance"
+    
+    },
+    {
+        "id":3,
+        "name":"Repair"
+    
+    },
+    {
+        "id":4,
+        "name":"Renovation"
+    
+    },
+    {
+        "id":5,
+        "name":"Assembly"
+    
+    },
+    {
+        "id":6,
+        "name":"Installation"
+    
+    },
+    {
+        "id":7,
+        "name":"Decoration"
+    
+    },
+    {
+        "id":8,
+        "name":"Customization"
+    
+    },
+    {
+        "id":9,
+        "name":"Demolition"
+    
+    },
+    {
+        "id":10,
+        "name":"Food"
+    
+    },
+    {
+        "id":11,
+        "name":"Beverages"
+    
+    },
+    {
+        "id":12,
+        "name":"Event Management"
+    
+    }
+   
+]

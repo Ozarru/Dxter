@@ -1,0 +1,147 @@
+[
+    {
+    "image":"assets/faces/man1.jpg",
+    "name":"Rodrigo Gutierez",
+    "profession":"Carpenter",
+    "rate":10,
+    "eta":15
+},
+    {
+    "image":"assets/faces/man2.jpg",
+    "name":"Adams Black ",
+    "profession":"Painter",
+    "rate":15,
+    "eta":5
+},
+    {
+    "image":"assets/faces/man3.jpg",
+    "name":"Oladayo Peters",
+    "profession":"Plumber",
+    "rate":12,
+    "eta":17
+},
+    {
+    "image":"assets/faces/woman1.jpg",
+    "name":"Katy Stones",
+    "profession":"Painter",
+    "rate":18,
+    "eta":5
+
+},
+    {
+    "image":"assets/faces/woman2.jpg",
+    "name":"Junita Corneilius",
+    "profession":"Decorator",
+    "rate":9,
+    "eta":20
+},
+    {
+    "image":"assets/faces/man1.jpg",
+    "name":"Rodrigo Gutierez",
+    "profession":"Carpenter",
+    "rate":10,
+    "eta":15
+},
+    {
+    "image":"assets/faces/man2.jpg",
+    "name":"Adams Black ",
+    "profession":"Painter",
+    "rate":15,
+    "eta":5
+},
+    {
+    "image":"assets/faces/man3.jpg",
+    "name":"Oladayo Peters",
+    "profession":"Plumber",
+    "rate":12,
+    "eta":17
+},
+    {
+    "image":"assets/faces/woman1.jpg",
+    "name":"Katy Stones",
+    "profession":"Painter",
+    "rate":18,
+    "eta":5
+
+},
+    {
+    "image":"assets/faces/woman2.jpg",
+    "name":"Junita Corneilius",
+    "profession":"Decorator",
+    "rate":9,
+    "eta":20
+},
+    {
+    "image":"assets/faces/man1.jpg",
+    "name":"Rodrigo Gutierez",
+    "profession":"Carpenter",
+    "rate":10,
+    "eta":15
+},
+    {
+    "image":"assets/faces/man2.jpg",
+    "name":"Adams Black ",
+    "profession":"Painter",
+    "rate":15,
+    "eta":5
+},
+    {
+    "image":"assets/faces/man3.jpg",
+    "name":"Oladayo Peters",
+    "profession":"Plumber",
+    "rate":12,
+    "eta":17
+},
+    {
+    "image":"assets/faces/woman1.jpg",
+    "name":"Katy Stones",
+    "profession":"Painter",
+    "rate":18,
+    "eta":5
+
+},
+    {
+    "image":"assets/faces/woman2.jpg",
+    "name":"Junita Corneilius",
+    "profession":"Decorator",
+    "rate":9,
+    "eta":20
+},
+    {
+    "image":"assets/faces/man1.jpg",
+    "name":"Rodrigo Gutierez",
+    "profession":"Carpenter",
+    "rate":10,
+    "eta":15
+},
+    {
+    "image":"assets/faces/man2.jpg",
+    "name":"Adams Black ",
+    "profession":"Painter",
+    "rate":15,
+    "eta":5
+},
+    {
+    "image":"assets/faces/man3.jpg",
+    "name":"Oladayo Peters",
+    "profession":"Plumber",
+    "rate":12,
+    "eta":17
+},
+    {
+    "image":"assets/faces/woman1.jpg",
+    "name":"Katy Stones",
+    "profession":"Painter",
+    "rate":18,
+    "eta":5
+
+},
+    {
+    "image":"assets/faces/woman2.jpg",
+    "name":"Junita Corneilius",
+    "profession":"Decorator",
+    "rate":9,
+    "eta":20
+}
+    
+]

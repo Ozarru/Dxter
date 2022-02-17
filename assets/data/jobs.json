@@ -1,0 +1,194 @@
+[
+    {
+    "title":"Leaky roof",
+    "client":"Anna Fritz",
+    "place":"Home",
+    "rate":10,
+    "budget":100,
+    "xp":"Entry level",
+    
+    "payvet":false
+},
+    {
+    "title":"Clogged bathub",
+    "client":"Adams Black ",
+    "place":"Home",
+    "rate":15,
+    "budget":50,
+    "xp":"Entry level",    
+    "payvet":true
+},
+    {
+    "title":"Faulty electrical wiring",
+    "client":"Oladayo Peters",
+    "place":"Office",
+    "rate":10,
+    "budget":200,
+    "xp":"Entry level",
+    "payvet":true
+
+},
+    {
+    "title":"Electrical meter installation",
+    "client":"Katy Stones",
+    "place":"Office",
+    "rate":18,
+    "budget":18,
+    "xp":"Entry level",    
+    "payvet":false
+
+},
+    {
+    "title":"Modern interior decoration",
+    "client":"Frank Corneilius",
+    "place":"Home",
+    "rate":15,
+    "budget":1500,
+    "xp":"Entry level",
+    "payvet":true
+
+},
+    {
+    "title":"Wooden doghouse build",
+    "client":"Gustoze",
+    "place":"Home",
+    "rate":10,
+    "budget":10,
+    "xp":"Entry level",    
+    "payvet":true
+
+},
+    {
+    "title":"Fridge and Freezer repair",
+    "client":"Adams White ",
+    "place":"Home",
+    "rate":15,
+    "budget":150,
+    "xp":"Entry level",
+    "payvet":false
+},
+    {
+    "title":"Air Conditioner maintenance",
+    "client":"Orion Centurion",
+    "place":"Office",
+    "rate":10,
+    "budget":500,
+    "xp":"Entry level",
+    "payvet":false
+
+},
+    {
+    "title":"Jammed locks repair",
+    "client":"Katy Stones",
+    "place":"Home",
+    "rate":15,
+    "budget":30,
+    "xp":"Entry level",    
+    "payvet":false
+},
+    {
+    "title":"Lawn triming and landscaping",
+    "client":"Aida Shelby",
+    "place":"Office",
+    "rate":10,
+    "budget":80,
+    "xp":"Entry level",    
+    "payvet":true
+},
+    {
+    "title":"House re-painting",
+    "client":"Raymond Oteke",
+    "place":"Home",
+    "rate":20,
+    "budget":2000,
+    "xp":"Entry level",
+    "payvet":true
+
+},
+    {
+    "title":"Event planner for a birthday party",
+    "client":"Suzi Q",
+    "place":"Home",
+    "rate":15,
+    "budget":500,
+    "xp":"Entry level",
+    "payvet":true
+},
+    {
+    "title":"House cleaning after an event",
+    "client":"Amanda Peters",
+    "place":"Home",
+    "rate":12,
+    "budget":120,
+    "xp":"Entry level",
+    "payvet":false
+
+},
+    {
+    "title":"Bathroom floor tile replacement",
+    "client":"Aiko Riusei",
+    "place":"Home",
+    "rate":10,
+    "budget":50,
+    "xp":"Entry level",    
+    "payvet":false
+},
+    {
+    "title":"Burned electrical circuit repair",
+    "client":"Judith Ezeokeke",
+    "place":"Home",
+    "rate":10,
+    "budget":300,
+    "xp":"Entry level",
+    "payvet":true
+
+},
+    {
+    "title":"Broken POP ceiling repair",
+    "client":"Ben Jen",
+    "place":"Office",
+    "rate":10,
+    "budget":200,
+    "xp":"Entry level",
+    "payvet":true
+
+},
+    {
+    "title":"House keeping",
+    "client":"Adams Black ",
+    "place":"Home",
+    "rate":15,
+    "budget":15,
+    "xp":"Entry level",    
+    "payvet":true
+},
+    {
+    "title":"Bartending at a cocktail party",
+    "client":"Diana Okezie",
+    "place":"Event center",
+    "rate":12,
+    "budget":12,
+    "xp":"Entry level",    
+    "payvet":true
+},
+    {
+    "title":"MC & DJ for a party",
+    "client":"Katy Stones",
+    "place":"Event center",
+    "rate":18,
+    "budget":18,
+    "xp":"Entry level",    
+    "payvet":false
+},
+    {
+    "title":"Event coverage (photo/video)",
+    "client":"Prisca Shane",
+    "place":"Home",
+    "rate":15,
+    "budget":100,
+    "xp":"Entry level",
+    "payvet":false
+
+}
+    
+]
