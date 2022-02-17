@@ -1,2 +1,2 @@
-# Handy-Mandy-Project
+# Dxter
 An app for household services like plumbing, carpentry etc...
