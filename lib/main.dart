@@ -3,7 +3,7 @@ import 'package:dxter/views/categories.dart';
 import 'package:dxter/views/intro.dart';
 import 'package:dxter/views/employer/e_base.dart';
 import 'package:dxter/views/employer/e_home.dart';
-import 'package:dxter/views/employer/new_hire.dart';
+import 'package:dxter/views/employer/post_job.dart';
 import 'package:dxter/views/services.dart';
 import 'package:dxter/views/profile.dart';
 import 'package:dxter/views/settings.dart';
@@ -14,6 +14,7 @@ import 'package:get/get.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 
+import 'views/contractor/post_service.dart';
 import 'views/contractor/w_base.dart';
 import 'views/contractor/w_contracts.dart';
 
@@ -66,7 +67,8 @@ class MyApp extends StatelessWidget {
             '/w-contracts': (context) => WContracts(),
             '/signup': (context) => SignUp(),
             '/login': (context) => Login(),
-            '/new-hire': (context) => NewHire(),
+            '/new-hire': (context) => PostJob(),
+            '/post-service': (context) => PostService(),
             '/categories': (context) => Categories(),
             '/services': (context) => Services(),
             '/view-profile': (context) => Profile(),

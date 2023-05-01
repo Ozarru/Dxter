@@ -6,61 +6,30 @@ import 'package:select_form_field/select_form_field.dart';
 
 import '../../widgets/drawer.dart';
 import '../../widgets/input_field.dart';
-import 'e_drawer.dart';
+import 'w_drawer.dart';
 
-class NewHire extends StatefulWidget {
-  const NewHire({Key? key}) : super(key: key);
+class PostService extends StatefulWidget {
+  const PostService({Key? key}) : super(key: key);
 
   @override
-  _NewHireState createState() => _NewHireState();
+  _PostServiceState createState() => _PostServiceState();
 }
 
-class _NewHireState extends State<NewHire> {
+class _PostServiceState extends State<PostService> {
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _typeController = TextEditingController();
-  final TextEditingController _reqController = TextEditingController();
   final TextEditingController _xpController = TextEditingController();
   final TextEditingController _descController = TextEditingController();
   final TextEditingController _rateController = TextEditingController();
   final TextEditingController _budgetController = TextEditingController();
 
-  final List<Map<String, dynamic>> _sizes = [
-    {
-      'value': 'extra-small',
-      'label': 'Extra small',
-    },
-    {
-      'value': 'small',
-      'label': 'Small',
-    },
-    {
-      'value': 'medium',
-      'label': 'Medium',
-    },
-    {
-      'value': 'medium-large',
-      'label': 'Medium Large',
-    },
-    {
-      'value': 'large',
-      'label': 'Large',
-    },
-    {
-      'value': 'extra-large',
-      'label': 'Extra Large',
-    },
-    {
-      'value': 'humongous',
-      'label': "I need a truck",
-    },
-  ];
   @override
   Widget build(BuildContext context) => SafeArea(
         child: Scaffold(
             appBar: AppBar(
               elevation: 0,
               backgroundColor: Colors.black,
-              title: Text("Post a job"),
+              title: Text("Post a service"),
               leading: IconButton(
                   onPressed: () => Get.back(),
                   icon: Icon(
@@ -68,7 +37,7 @@ class _NewHireState extends State<NewHire> {
                     // color: Colors.black,
                   )),
             ),
-            drawer: EDrawer(),
+            drawer: WDrawer(),
             body: Container(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               height: MediaQuery.of(context).size.height,
@@ -76,12 +45,12 @@ class _NewHireState extends State<NewHire> {
                 physics: BouncingScrollPhysics(),
                 children: [
                   SizedBox(height: 16),
-                  Text('Fill the form below to post a new job',
+                  Text('Fill the form below to post a new Service',
                       style: Theme.of(context).textTheme.headline2),
                   SizedBox(height: 16),
                   TextInputField(
-                    title: 'Job name *',
-                    hint: 'name',
+                    title: 'Service name *',
+                    hint: 'I will do ...',
                     controller: _nameController,
                   ),
                   TextInputField(
@@ -89,40 +58,20 @@ class _NewHireState extends State<NewHire> {
                     hint: 'what kind of service is it?',
                     controller: _typeController,
                   ),
-                  TextInputField(
-                    title: 'Job description *',
-                    hint: 'give a brief description of the job',
+                  TextAreaField(
+                    title: 'Service description *',
+                    hint: 'give a brief description of the Service',
                     controller: _descController,
                   ),
                   TextInputField(
-                    title: 'Job requirements *',
-                    hint: 'what skills are required?',
-                    controller: _reqController,
-                  ),
-                  TextInputField(
                     title: 'Expertise *',
-                    hint: 'what experience level is needed?',
-                    controller: _xpController,
-                  ),
-                  TextInputField(
-                    title: 'Job duration *',
-                    hint: 'how long will the job take to do?',
-                    controller: _xpController,
-                  ),
-                  TextInputField(
-                    title: 'Job clause',
-                    hint: 'what is the clause of this job?',
+                    hint: 'what is your level of experience?',
                     controller: _xpController,
                   ),
                   NumInputField(
                     title: 'Hourly rate *',
-                    hint: 'how much will you pay per hour?',
+                    hint: 'how much do you charge per hour?',
                     controller: _rateController,
-                  ),
-                  NumInputField(
-                    title: 'Budget *',
-                    hint: 'what is your total budget?',
-                    controller: _budgetController,
                   ),
                   SizedBox(height: 16),
                   TextButton(
@@ -134,7 +83,7 @@ class _NewHireState extends State<NewHire> {
                         primary: Colors.white,
                         padding: EdgeInsets.all(20),
                       ),
-                      child: Text('Post job'))
+                      child: Text('Post Service'))
                 ],
               ),
             )),
@@ -151,12 +100,12 @@ class _NewHireState extends State<NewHire> {
           icon: Icon(Icons.warning_rounded, color: Colors.red));
     } else {
       // _addToDB();
-      Get.snackbar('Nice 😎', 'Job was created successfully !!!',
+      Get.snackbar('Nice 😎', 'Service was created successfully !!!',
           snackPosition: SnackPosition.TOP,
           backgroundColor: Colors.white,
           colorText: Colors.green[800],
           icon: Icon(Icons.check_circle, color: Colors.green));
-      Get.toNamed('/dispatches');
+      Get.toNamed('/my-services');
     }
   }
 }

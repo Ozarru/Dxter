@@ -73,6 +73,78 @@ class TextInputField extends StatelessWidget {
   }
 }
 
+class TextAreaField extends StatelessWidget {
+  const TextAreaField(
+      {Key? key,
+      required this.title,
+      required this.hint,
+      this.controller,
+      this.widget})
+      : super(key: key);
+  final String title;
+  final String hint;
+  final TextEditingController? controller;
+  final Widget? widget;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(top: 16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            title,
+            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+          ),
+          Container(
+            margin: EdgeInsets.only(top: 8),
+            padding: EdgeInsets.all(10),
+            decoration: BoxDecoration(
+                color: Color.fromARGB(255, 255, 255, 255),
+                border: Border.all(
+                  color: Colors.grey.shade300,
+                  width: 1.0,
+                ),
+                borderRadius: BorderRadius.circular(10)),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Expanded(
+                    child: TextFormField(
+                  minLines: 2,
+                  maxLines: 8,
+                  keyboardType: TextInputType.multiline,
+                  autofocus: false,
+                  controller: controller,
+                  decoration: InputDecoration(
+                    hintText: hint,
+                    hintStyle: TextStyle(
+                        fontSize: 14,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.grey),
+                    focusedBorder: UnderlineInputBorder(
+                        borderSide:
+                            BorderSide(color: Colors.transparent, width: 0)),
+                    enabledBorder: UnderlineInputBorder(
+                        borderSide:
+                            BorderSide(color: Colors.transparent, width: 0)),
+                  ),
+                )),
+                widget == null
+                    ? Container()
+                    : Container(
+                        child: widget,
+                      )
+              ],
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
+
 class NumInputField extends StatelessWidget {
   const NumInputField(
       {Key? key,

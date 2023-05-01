@@ -388,7 +388,7 @@ class IntroTile extends StatelessWidget {
                       Container(
                         padding: EdgeInsets.all(8),
                         decoration: BoxDecoration(
-                            color: Colors.blue,
+                            color: Colors.black,
                             borderRadius: BorderRadius.circular(20)),
                         child: Icon(
                           Icons.arrow_forward,

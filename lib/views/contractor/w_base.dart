@@ -27,21 +27,21 @@ class _WBaseState extends State<WBase> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-          elevation: 0,
-          backgroundColor: Colors.transparent,
-          iconTheme: IconThemeData(
-            color: Colors.black,
-          ),
-          actions: [
-            // searcher(),
-            IconButton(
-                onPressed: () {},
-                icon: Icon(
-                  TablerIcons.bell,
-                  color: Colors.grey,
-                ))
-          ]),
+      // appBar: AppBar(
+      //     elevation: 0,
+      //     backgroundColor: Colors.transparent,
+      //     iconTheme: IconThemeData(
+      //       color: Colors.black,
+      //     ),
+      //     actions: [
+      //       // searcher(),
+      //       IconButton(
+      //           onPressed: () {},
+      //           icon: Icon(
+      //             TablerIcons.bell,
+      //             color: Colors.grey,
+      //           ))
+      //     ]),
       drawer: WDrawer(),
       body: SafeArea(child: _screens[_index]),
       bottomNavigationBar: BottomNavyBar(

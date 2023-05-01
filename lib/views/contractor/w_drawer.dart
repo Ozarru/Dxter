@@ -36,7 +36,7 @@ class WDrawer extends StatelessWidget {
                   DrawerTile(
                     label: 'Give a hand',
                     icon: Icons.handyman_outlined,
-                    route: '/find-jobs',
+                    route: '/post-service',
                   ),
                   DrawerTile(
                     label: 'Stats',
@@ -47,6 +47,11 @@ class WDrawer extends StatelessWidget {
                     label: 'Work history',
                     icon: TablerIcons.history,
                     route: '/activity',
+                  ),
+                  DrawerTile(
+                    label: 'Profile',
+                    icon: TablerIcons.user,
+                    route: '/profile',
                   ),
                   DrawerTile(
                     label: 'Settings',
